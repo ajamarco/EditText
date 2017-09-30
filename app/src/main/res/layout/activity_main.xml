@@ -8,38 +8,55 @@
     android:orientation="vertical"
     tools:context="com.example.jamarco.edittext.MainActivity">
 
-
-    <EditText
-        android:id="@+id/editName"
+    <android.support.design.widget.TextInputLayout
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:inputType="textPersonName|textCapWords"
-        android:imeOptions="actionNext"
-        android:hint="@string/hint_name"/>
+        android:layout_height="wrap_content">
+        <EditText
+            android:id="@+id/editName"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="textPersonName|textCapWords"
+            android:imeOptions="actionNext"
+            android:hint="@string/hint_name"/>
+    </android.support.design.widget.TextInputLayout>
 
-    <EditText
-        android:id="@+id/editEmail"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:inputType="textEmailAddress"
-        android:hint="@string/hint_email"
-        android:imeOptions="actionNext"
-        />
 
-    <EditText
-        android:id="@+id/editPass"
+    <android.support.design.widget.TextInputLayout
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:inputType="textPassword"
-        android:imeOptions="actionDone"
-        android:hint="@string/hint_pass"/>
+        android:layout_height="wrap_content">
+        <EditText
+            android:id="@+id/editEmail"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="textEmailAddress"
+            android:hint="@string/hint_email"
+            android:imeOptions="actionNext"
+            />
+    </android.support.design.widget.TextInputLayout>
 
-    <EditText
-        android:id="@+id/editCEP"
+    <android.support.design.widget.TextInputLayout
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:ems="10"
-        android:inputType="number"
-        android:hint="@string/hint_postal_code"
-        android:maxLength="10"/>
+        android:layout_height="wrap_content">
+        <EditText
+            android:id="@+id/editPass"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="textPassword"
+            android:imeOptions="actionDone"
+            android:hint="@string/hint_pass"/>
+    </android.support.design.widget.TextInputLayout>
+
+        <android.support.design.widget.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+        <EditText
+            android:id="@+id/editCEP"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:inputType="number"
+            android:hint="@string/hint_postal_code"
+            android:maxLength="10"/>
+        </android.support.design.widget.TextInputLayout>
+
 </LinearLayout>
