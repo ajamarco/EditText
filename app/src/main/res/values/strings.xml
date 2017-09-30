@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">EditText</string>
+    <string name="hint_name">Name</string>
+    <string name="hint_email">E-mail</string>
+    <string name="hint_pass">Password</string>
+    <string name="hint_postal_code">Postal Code</string>
+    <string name="error_msg_name">The field name is mandatory</string>
+    <string name="error_msg_email">Invalid E-mail</string>
+    <string name="error_msg_pass">Wrong Password</string>
+    <string name="sucess_msg">User %1$s with the e-mail %2$s registered!</string>
+</resources>
